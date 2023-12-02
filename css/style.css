@@ -1,0 +1,540 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sp {
+    justify-content: space-between;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.ai-item {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+input:focus {
+    outline: none;
+}
+
+.slider {
+    background-color: #fef0ef;
+}
+
+.slider::after {
+    content: '';
+    height: 200px;
+    width: 110px;
+    position: absolute;
+    background-size: 100% auto;
+    background: url(../images/img02.png) no-repeat;
+    bottom: 100px;
+    left: 10px;
+}
+
+.slider::before {
+    content: '';
+    height: 200px;
+    width: 110px;
+    position: absolute;
+    background-size: 100% auto;
+    background: url(../images/img02.png) no-repeat;
+    top: 100px;
+    right: 0px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.navbar ul li a {
+    color: #554f7b;
+    padding: 20px;
+}
+
+.navbar ul li a:hover i {
+    transform: rotate(180deg);
+    transition-delay: 0.5s;
+}
+
+.home .register i {
+    padding: 20px;
+    color: #554f7b;
+}
+
+.home .register a {
+    padding: 10px;
+    background-color: #f66962;
+    color: #ffffff;
+}
+
+.success-story {
+    padding-top: 60px;
+}
+
+.success-story .choose {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.success-story .choose h1 {
+    font-size: 60px;
+    color: #000000;
+    font-weight: 700;
+    width: 424px;
+}
+
+.success-story .choose p {
+    width: 341px;
+    color: #554f7b;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.success-story .choose form input {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 70%;
+    box-shadow: 6px 21px 44px -11px rgba(246, 105, 98, 0.32);
+    padding: 10px;
+    border: none;
+    color: #696389;
+    background-color: #ffffff;
+}
+
+.success-story .choose form button {
+    box-shadow: 6px 21px 44px -11px rgba(246, 105, 98, 0.32);
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f66962;
+    color: #ffffff;
+    border: none;
+}
+
+.success-story .choose form i {
+    font-size: 15px;
+}
+
+.success-story .ambition {
+    width: 50%;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.success-story .ambition img {
+    width: 80%;
+    border-radius: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.success-story .ambition::after {
+    content: '';
+    border: 3px solid #f68c1f;
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border-radius: 30px;
+    width: 70%;
+    height: 450px;
+}
+
+.choice {
+    background-color: #efeff7;
+    padding: 80px 0px;
+}
+
+.choice .course {
+    padding-bottom: 50px;
+}
+
+.choice .course h2 {
+    font-size: 40px;
+    color: #2f2d3a
+}
+
+.course .data a {
+    font-size: 15px;
+    color: #5f5881;
+    padding: 10px;
+}
+
+.course .data .viewall {
+    background-color: #f66962;
+    color: #ffffff;
+}
+
+.course .data a:hover i {
+    transform: rotate(180deg);
+    transition-delay: 0.5s;
+}
+
+.choice .need {
+    padding-bottom: 50px;
+}
+
+.choice .need .business {
+    width: 32%;
+    background-color: #ffffff;
+    padding: 15px 15px 30px 15px;
+}
+
+.choice .need .business img {
+    border-radius: 10px;
+}
+
+.business .rating {
+    padding: 10px 0px;
+    border-bottom: 1px solid #f7f6fb;
+}
+
+.business .rating p {
+    color: #645d86;
+}
+
+.business .rating i {
+    color: #f3b23c;
+    padding-right: 5px;
+}
+
+.business .rating .bi-eye {
+    color: #dc4500;
+}
+
+.business .rating .bi-play-circle {
+    color: #3d9366;
+}
+
+.business h3 {
+    width: 246px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.business .brown .nicole p {
+    color: #7a7a7a;
+}
+
+.business .brown del {
+    color: #cdc9d7;
+}
+
+.business .brown p {
+    color: #f48b1e;
+}
+
+.arrow i {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.arrow .right-arrow {
+    color: #f68c1f;
+}
+
+.category {
+    padding: 80px 0px;
+    width: 100%;
+}
+
+.category .favourite h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.practical a {
+    font-size: 20px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #f66962;
+}
+
+.category .graphic {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.category .graphic .design {
+    width: 23%;
+    padding: 40px 20px;
+    margin: 10px;
+}
+
+.graphic .design i {
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.graphic .bg1 {
+    background-color: #efeff7;
+}
+
+.graphic .bg2 {
+    background-color: #f68c1f;
+}
+
+.graphic .bg3 {
+    background-color: #dcf7fe;
+}
+
+.graphic .bg4 {
+    background-color: #e5fae9;
+}
+
+.graphic .bg5 {
+    background-color: #e5fae9;
+}
+
+.graphic .bg6 {
+    background-color: #dcf7fe;
+}
+
+.graphic .bg7 {
+    background-color: #fdf3e9;
+}
+
+.graphic .bg8 {
+    background-color: #efeff7;
+}
+
+.graphic .bg1 i {
+    background-color: #e2dcfe;
+    color: #5343a5;
+}
+
+.graphic .bg2 i {
+    background-color: #ffffff;
+    color: #f68c1f;
+}
+
+.graphic .bg3 i {
+    background-color: #bcf0fd;
+    color: #17afee;
+}
+
+.graphic .bg4 i {
+    background-color: #cef5d6;
+    color: #60d36c;
+}
+
+.graphic .bg5 i {
+    background-color: #cef5d6;
+    color: #5ed66c;
+}
+
+.graphic .bg6 i {
+    background-color: #bbf0fe;
+    color: #2bb8ee;
+}
+
+.graphic .bg7 i {
+    background-color: #fae0d1;
+    color: #ee8541;
+}
+
+.graphic .bg83 i {
+    background-color: #e2dcfe;
+    color: #5445a4;
+}
+
+.graphic .design img {
+    padding: 10px;
+    background-color: #e2dcfe;
+}
+
+.graphic .design h3 {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.graphic .design p {
+    width: 196px;
+    color: #6f6b90;
+}
+
+.online{
+    background-color: #fef0ef;
+    position: relative;
+    padding: 170px 60px;
+    
+}
+
+.online .remote h2{
+    font-size: 30px;
+}
+
+.online .remote p{
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+.online .remote  a{
+    padding: 10px;
+    background-color: #f66962;
+    color: #ffffff;
+}
+
+.online .remote .box1{
+    position: absolute;
+    width: 60px;
+    top: 42px;
+    left: 280px;
+}
+
+.online .remote .box2{
+    position: absolute;
+    width: 60px;
+    top: 170px;
+    left: 80px;
+}
+
+.online .remote .box3{
+    position: absolute;
+    width: 60px;
+    bottom: 135px;
+    left: 300px;
+}
+
+.online .remote .box4{
+    position: absolute;
+    width: 60px;
+    top: 42px;
+    right: 280px;
+}
+
+.online .remote .box5{
+    position: absolute;
+    width: 60px;
+    top: 170px;
+    right: 80px;
+}
+
+.online .remote .box6{
+    position: absolute;
+    width: 60px;
+    bottom: 135px;
+    right: 290px;
+}
+
+.platform{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.platform .career-goals{
+    width: 40%;
+}
+
+.platform .career-goals h3{
+    font-size: 30px;
+    font-weight: 500;
+    width: 390px;
+    padding-bottom: 10px;
+}
+
+.platform .career-goals p{
+    color: #605982;
+    width: 345px;
+    padding-bottom: 20px;
+}
+
+.platform .career-goals span{
+    color: #5f5881;
+}
+
+.platform .career-goals span img{
+    width: 20px;
+}
+
+.platform .career-goals a{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f66962;
+    color: #ffffff;
+}
+
+.platform .learning{
+    width: 60%;
+    position: relative;
+    z-index: 100;
+}
+
+.platform .learning img{
+    width: 70%;
+    border-top-right-radius: 150px;   
+    
+}
+
+.platform .learning::after{
+    content: '';
+    border: 3px solid #f68c1f;
+    display: block;
+    position: absolute;
+    top: -28px;
+    right: 170px;
+    width: 70%;
+    height: 450px;
+    border-top-right-radius: 150px; 
+    
+}
+
+.team{
+    background-color: #efeff7;
+}
+
+.team .students{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.team .students h3{
+    font-size: 30px;
+}
+
+ .bi-arrow-left-short{
+    padding: 10px;
+    color: #92929a;
+    background-color: #ffffff;
+    margin-left: 20px;
+
+}
+
+.bi-arrow-right-short{
+    padding: 10px;
+    color: #f78d20;
+    background-color: #ffffff;
+}
+
+.team .education .saver{
+    background-color: #ffffff;
+    width: 450px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.education .saver img{
+    width: 10%;
+}
+
+.education .saver h4{}
+
