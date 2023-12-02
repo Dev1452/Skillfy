@@ -10,6 +10,10 @@
     justify-content: space-between;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .t-center {
     text-align: center;
 }
@@ -502,12 +506,12 @@ input:focus {
     background-color: #efeff7;
 }
 
-.team .students{
+ .students{
     padding-top: 80px;
     padding-bottom: 30px;
 }
 
-.team .students h3{
+.students h3{
     font-size: 30px;
 }
 
@@ -527,14 +531,127 @@ input:focus {
 
 .team .education .saver{
     background-color: #ffffff;
-    width: 450px;
+    width: 45%;
     padding-left: 20px;
     padding-top: 30px;
+    padding-right: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.team .education .saver:hover{
+    border-left: 4px solid #f68c1f;
 }
 
 .education .saver img{
     width: 10%;
 }
 
-.education .saver h4{}
+.education .saver h4{
+       font-size: 25px;
+       color: #5f5882;
+       padding-right: 90px;
+}
 
+.education .saver h4 span{
+    display: block;
+    font-size: 14px;
+    padding-top: 5px;
+    color: #9998a0;
+}
+
+.education .saver i{
+    color: #f78d20;
+}
+
+.education .saver p{
+    color: #5f5881;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 445px;
+}
+
+.trusted .teacher{
+    padding-top: 80px;
+}
+
+.trusted .social-logo{
+    padding-bottom: 50px;
+}
+
+.became{
+    background-color: #fef0ef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.became .coursector{
+    width: 45%;
+    padding: 45px 40px 45px 20px;
+    background-color: #ffffff;
+    border-top-right-radius: 20px;
+}
+
+.became .coursector img{
+    width: 60px;
+}
+
+.became .coursector .tools{
+    padding-left: 20px;
+}
+
+
+.became .coursector .tools h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #787294;
+}
+
+.became .coursector .tools p{
+    color: #787294;
+    padding-bottom: 20px;
+}
+
+.became .coursector .tools .btn{
+        padding: 20px;
+        background-color: #f66962;
+        color: #ffffff;
+}
+
+.became .coursector:hover{
+    border-left: 4px solid #f68c1f;
+}
+
+footer{
+    background-color: #282834;
+    padding: 50px;
+}
+
+footer .teaching{
+         border-bottom: 1px solid #3e3e46;
+}
+
+footer .community{
+    padding-bottom: 30px;
+}
+
+footer .community h5{
+      font-size: 30px;
+      padding-bottom: 20px;
+      color: #fff;
+}
+
+
+footer .community ul li a{
+    color: #8b8b95;
+}
+
+.copyright p{
+    color: #787677;
+    padding-top: 20px;
+}
+
+.reserved a i{
+    padding: 10px;
+    color: #787677;
+}
