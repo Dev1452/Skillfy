@@ -271,10 +271,8 @@ input:focus {
 }
 
 .category .graphic {
-    margin: 10px;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
 }
 
 .category .graphic .design {
@@ -655,3 +653,65 @@ footer .community ul li a{
     padding: 10px;
     color: #787677;
 }
+
+
+                                  /* Responsive Page*/
+
+@media (max-width : 1160px )  {
+         .container{
+              width: 90%;
+            }
+}
+
+@media (max-width : 1024px) {
+      .container{
+        width: 90%;
+      }
+
+      .navbar ul li a {
+        padding: 10px;
+    }
+
+    .success-story .choose h1{
+        font-size: 50px;
+    }
+
+    .success-story .ambition::after{
+        height: 354px;
+    }
+
+    .success-story .choose form input{
+        width: 65%;
+    }
+
+    .choice .need .business img {
+        width: 100%;
+    }
+
+    .nicole img{
+        width: 28%;
+    }
+
+    .category .favourite h2 {
+        font-size: 33px;
+    }
+
+    .category .graphic .design{
+        width: 30%;
+    }
+
+    .platform .learning::after {
+       width: 62%;
+       height: 394px;
+       right: 132px;
+    }
+
+    .team .education .saver {
+       width: 46%;
+    }
+
+    .slider::after {
+    bottom: 0px; 
+    }
+
+}                                
