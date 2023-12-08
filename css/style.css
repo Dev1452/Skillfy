@@ -480,13 +480,13 @@ input:focus {
 .platform .learning{
     width: 60%;
     position: relative;
-    z-index: 100;
 }
 
 .platform .learning img{
     width: 70%;
     border-top-right-radius: 150px;   
-    
+    position: relative;
+    z-index: 1000;
 }
 
 .platform .learning::after{
